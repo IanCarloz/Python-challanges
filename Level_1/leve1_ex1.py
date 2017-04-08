@@ -9,8 +9,8 @@ Consider use range(#begin, #end) method
 """
 
 def main():
-    print('hola')
-    pass
+    for n in range(10):
+        print(n)
 
 if __name__ == '__main__':
     main()
